@@ -7,4 +7,4 @@ statementMapping:
   template:
     item: item(B/$row)
     property: item($col/1)
-    value: value($col/$row)
+    value: item($col/$row)
