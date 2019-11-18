@@ -1,0 +1,10 @@
+statementMapping:
+  region:
+    - left: AG
+      right: AJ
+      top: 1
+      bottom: 102
+  template:
+    item: item(B/$row)
+    property: item($col/1)
+    value: item($col/$row)
